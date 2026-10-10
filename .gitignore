@@ -1,0 +1,24 @@
+# Datos: nunca al repo (licencia Freddie Mac + tamaño)
+data/raw/*
+data/sample/*
+!data/**/.gitkeep
+*.zip
+*.txt.gz
+
+# Secretos
+.env
+conf/*.yaml
+!conf/*.example.yaml
+*.pem
+*.jks
+client.properties
+
+# Python / IDE
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Power BI (el .pbix puede contener datos importados)
+powerbi/*.pbix
